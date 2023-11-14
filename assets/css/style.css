@@ -11,7 +11,6 @@ body{
 
 /* Logo */
 header{
-    border: 1px solid black;
     padding: 10px;
     height: 70px;
     background-color: white;
@@ -59,8 +58,8 @@ img{
 }
 .c2{
     width: 60%;
-    height: 30em;
     margin: 0 auto 1em auto;
+    padding-bottom: 30px;
 }
 
 /* markers */
@@ -91,11 +90,12 @@ img{
 
 /* List */
 li{
-    margin-top: 10px;
+    margin-top: 13px;
 }
-li:last-child{
-    padding-bottom: 10px;
+li>h3{
+    padding-top: 20px;
 }
+
 ul{
     list-style: none;
 }
@@ -106,7 +106,16 @@ ul{
     color: green;
     border: 1px solid green;
     border-radius: 100%;
-    width: 20px;
-    height: 20px;
+    width: 21px;
+    height: 21px;
 }
-#no
+
+#no{
+    display: inline-block;
+    text-align: center;
+    color: red;
+    border: 1px solid red;
+    border-radius: 100%;
+    width: 21px;
+    height: 21px;
+}
