@@ -2,38 +2,31 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 body{
     background-color: #F6F8F9;
+    font-family: sans-serif;
+    font-size: smaller;
 }
 
 /* Logo */
 header{
     border: 1px solid black;
-    height: 80px;
+    padding: 10px;
+    height: 70px;
     background-color: white;
 }
 
 header>h1{
-    display: inline-block;
+    display: inline;
+    font-weight: 1400;
+    vertical-align: middle;
 }
 
 img{
-    vertical-align: auto;
+    vertical-align: middle;
 }
-/* Container */
-.container{
-    background-color: white;
-    padding: 10px 30px;
-    margin: 3em auto 0;
-    width: 60%;
-}
-.c2{
-    width: 60%;
-    height: 30em;
-    margin: 0 auto 1em auto;
-}
+
 
 /* Buttons */
 .container.c1{
@@ -56,3 +49,64 @@ img{
     background-color: white;
     color: lightgray;
 }
+
+/* Container */
+.container{
+    background-color: white;
+    padding: 10px 50px;
+    margin: 3em auto 0;
+    width: 60%;
+}
+.c2{
+    width: 60%;
+    height: 30em;
+    margin: 0 auto 1em auto;
+}
+
+/* markers */
+.marker{
+    color: white;
+    padding: 5px 10px;
+    font-size: x-small;
+    border-radius: 10px;
+}
+.editorial.marker{
+    background-color: #47ADF1;
+}
+.q1.marker{
+    background-color: #9C72E4;
+}
+.recruiting.marker{
+    background-color: #64C0A9;
+}
+.mobile.marker{
+    background-color: #F29E33;
+}
+.website.marker{
+    background-color: #D863A1;
+}
+.sales.marker{
+    background-color: #B0C926;
+}
+
+/* List */
+li{
+    margin-top: 10px;
+}
+li:last-child{
+    padding-bottom: 10px;
+}
+ul{
+    list-style: none;
+}
+
+#ok{
+    display: inline-block;
+    text-align: center;
+    color: green;
+    border: 1px solid green;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+}
+#no
